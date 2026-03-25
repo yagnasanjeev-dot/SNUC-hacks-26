@@ -1,0 +1,269 @@
+{
+  "san": {
+    "daily_limit": 450,
+    "monthly_limit": 10000,
+    "expenses": [
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-26"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2027-03-25"
+      },
+      {
+        "amount": 450,
+        "category": "Food",
+        "note": "",
+        "date": "2027-03-31"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2027-03-31"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-25"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-26"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-26"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-27"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-04-04"
+      },
+      {
+        "amount": 100,
+        "category": "Food",
+        "note": "",
+        "date": "2026-04-05"
+      }
+    ],
+    "streak": 4,
+    "best_streak": 4,
+    "shields": 0,
+    "badges": [
+      "3-Day Starter"
+    ],
+    "title": "Getting Serious",
+    "friends": [
+      "mas",
+      "las",
+      "kas"
+    ],
+    "challenges": [
+      {
+        "name": "kukka",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "san",
+          "mas"
+        ],
+        "created_by": "san",
+        "created_date": "2026-03-25"
+      },
+      {
+        "name": "kukkalu",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "mas",
+          "las",
+          "kas",
+          "san"
+        ],
+        "created_by": "mas",
+        "created_date": "2026-03-25"
+      }
+    ],
+    "last_streak_update": "2026-03-25"
+  },
+  "mas": {
+    "daily_limit": 500,
+    "monthly_limit": 17000,
+    "expenses": [
+      {
+        "amount": 600,
+        "category": "Impulse",
+        "note": "Taga",
+        "date": "2026-03-25"
+      },
+      {
+        "amount": 50000,
+        "category": "Entertainment",
+        "note": "peka",
+        "date": "2026-03-25"
+      },
+      {
+        "amount": 50000,
+        "category": "Entertainment",
+        "note": "peka",
+        "date": "2026-03-25"
+      },
+      {
+        "amount": 50000,
+        "category": "Entertainment",
+        "note": "peka",
+        "date": "2026-03-25"
+      }
+    ],
+    "streak": 0,
+    "best_streak": 0,
+    "shields": 0,
+    "badges": [],
+    "title": "Beginner Saver",
+    "friends": [
+      "san",
+      "las",
+      "kas"
+    ],
+    "challenges": [
+      {
+        "name": "kukka",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "san",
+          "mas"
+        ],
+        "created_by": "san",
+        "created_date": "2026-03-25"
+      },
+      {
+        "name": "kukka",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "mas",
+          "las"
+        ],
+        "created_by": "mas",
+        "created_date": "2026-03-25"
+      },
+      {
+        "name": "kukkalu",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "mas",
+          "las",
+          "kas",
+          "san"
+        ],
+        "created_by": "mas",
+        "created_date": "2026-03-25"
+      }
+    ],
+    "last_streak_update": "2026-03-25"
+  },
+  "las": {
+    "daily_limit": 5678,
+    "monthly_limit": 3550,
+    "expenses": [
+      {
+        "amount": 550,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-25"
+      },
+      {
+        "amount": 3450,
+        "category": "Food",
+        "note": "",
+        "date": "2026-03-25"
+      }
+    ],
+    "streak": 0,
+    "best_streak": 0,
+    "shields": 0,
+    "badges": [],
+    "title": "Beginner Saver",
+    "friends": [
+      "mas",
+      "san"
+    ],
+    "challenges": [
+      {
+        "name": "kukka",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "mas",
+          "las"
+        ],
+        "created_by": "mas",
+        "created_date": "2026-03-25"
+      },
+      {
+        "name": "kukkalu",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "mas",
+          "las",
+          "kas",
+          "san"
+        ],
+        "created_by": "mas",
+        "created_date": "2026-03-25"
+      }
+    ],
+    "last_streak_update": "2026-03-25"
+  },
+  "kas": {
+    "daily_limit": 500,
+    "monthly_limit": 10000,
+    "expenses": [],
+    "streak": 0,
+    "best_streak": 0,
+    "shields": 0,
+    "badges": [],
+    "title": "Beginner Saver",
+    "friends": [
+      "san",
+      "mas"
+    ],
+    "challenges": [
+      {
+        "name": "kukkalu",
+        "daily_limit": 300,
+        "monthly_limit": 5000,
+        "members": [
+          "mas",
+          "las",
+          "kas",
+          "san"
+        ],
+        "created_by": "mas",
+        "created_date": "2026-03-25"
+      }
+    ],
+    "last_streak_update": "2026-03-25"
+  }
+}

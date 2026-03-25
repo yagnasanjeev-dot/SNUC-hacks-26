@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import os
 import pandas as pd
+import datetime
 from datetime import date, timedelta
 
 st.set_page_config(page_title="SpendStreak", page_icon="💰", layout="wide")
@@ -166,25 +167,25 @@ if st.session_state.logged_in_user is None:
             
             if st.button("Sign Up", use_container_width=True, type="primary"):
                 if new_user and new_user not in st.session_state.data:
-                    if monthly_limit >= daily_limit * 30:
-                        st.error(f"Monthly allowance must be less than ₹{daily_limit * 30} (daily × 30)")
-                    else:
-                        st.session_state.data[new_user] = {
-                            "daily_limit": daily_limit,
-                            "monthly_limit": monthly_limit,
-                            "expenses": [],
-                            "streak": 0,
-                            "best_streak": 0,
-                            "shields": 0,
-                            "badges": [],
-                            "title": "Beginner Saver",
-                            "friends": [],
-                            "challenges": [],
-                            "last_streak_update": ""
-                        }
-                        save_data(st.session_state.data)
-                        st.session_state.logged_in_user = new_user
-                        st.rerun()
+                    #if monthly_limit >= daily_limit * 30:
+                     #   st.error(f"Monthly allowance must be less than ₹{daily_limit * 30} (daily × 30)")
+                    #else:
+                    st.session_state.data[new_user] = {
+                        "daily_limit": daily_limit,
+                        "monthly_limit": monthly_limit,
+                        "expenses": [],
+                        "streak": 0,
+                        "best_streak": 0,
+                        "shields": 0,
+                        "badges": [],
+                        "title": "Beginner Saver",
+                        "friends": [],
+                        "challenges": [],
+                        "last_streak_update": ""
+                    }
+                    save_data(st.session_state.data)
+                    st.session_state.logged_in_user = new_user
+                    st.rerun()
                 elif new_user in st.session_state.data:
                     st.error("Username taken.")
                 else:
@@ -207,6 +208,7 @@ else:
     st.sidebar.metric("Streak", f"{user_data['streak']} days")
     st.sidebar.metric("Title", user_data['title'])
     st.sidebar.metric("Shields", f"{user_data['shields']} available")
+    st.sidebar.metric("Date", date.today().strftime("%d:%m:%y") )
     
     st.sidebar.markdown("---")
     
@@ -356,7 +358,7 @@ else:
             if user_data["shields"] > 0:
                 st.warning(f"This will put you over budget! A shield will be used. ({user_data['shields']} shields remaining)")
             else:
-                st.warning(f"This will put you over budget and RESET your {user_data['streak']}-day streak!")
+                st.warning(f"Your budget for the day is spent!\n You've just RESET your {user_data['streak']}-day streak!")
         
         if st.button("Log Expense", use_container_width=True, type="primary"):
             expense = {
